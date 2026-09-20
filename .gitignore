@@ -6,6 +6,8 @@ __pycache__/
 # (FiveK images are copyrighted; the raw parquet is ~2GB; .npy embeddings are derived)
 data/raw_parquet/
 data/frames/
+data/masks/
+data/mask_overlays/
 data/*.npy
 
 # leave data/labels.csv tracked — it's just our own small metadata table
