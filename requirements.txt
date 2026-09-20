@@ -1,0 +1,13 @@
+transformers
+datasets
+pillow
+huggingface_hub
+scikit-learn
+matplotlib
+ipykernel
+
+# torch is intentionally not pinned here -- install it separately first, matching
+# your GPU's CUDA version, e.g.:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+# then install the rest of this file:
+#   pip install -r requirements.txt

@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+
+# derived data / downloaded data — regenerate via scripts/, don't commit
+# (FiveK images are copyrighted; the raw parquet is ~2GB; .npy embeddings are derived)
+data/raw_parquet/
+data/frames/
+data/*.npy
+
+# leave data/labels.csv tracked — it's just our own small metadata table
