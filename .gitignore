@@ -8,6 +8,7 @@ data/raw_parquet/
 data/frames/
 data/masks/
 data/mask_overlays/
+data/mask_tokens/
 data/*.npy
 
 # leave data/labels.csv tracked — it's just our own small metadata table

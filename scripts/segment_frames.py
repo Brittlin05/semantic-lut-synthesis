@@ -16,7 +16,7 @@ id2label = model.config.id2label
 os.makedirs("data/masks", exist_ok=True)
 os.makedirs("data/mask_overlays", exist_ok=True)
 
-frame_files = sorted(os.listdir("data/frames"))[:10]  # just first 10 for now, to sanity-check
+frame_files = sorted(os.listdir("data/frames"))
 
 for fname in frame_files:
     img = Image.open(f"data/frames/{fname}").convert("RGB")
