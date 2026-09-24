@@ -9,6 +9,9 @@ data/frames/
 data/masks/
 data/mask_overlays/
 data/mask_tokens/
+data/frames_graded/
+data/target_luts/
+data/target_luts_*.jpg
 data/*.npy
 
 # leave data/labels.csv tracked — it's just our own small metadata table
